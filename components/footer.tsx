@@ -1,4 +1,4 @@
-import { Shield, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Shield, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -8,75 +8,78 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <Shield className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">Aurentric Security</span>
+              <span className="text-xl font-bold text-foreground">
+                Aurentric Security
+              </span>
             </div>
             <p className="text-sm text-muted-foreground max-w-md">
-              Líder en soluciones de seguridad y vigilancia con tecnología de vanguardia. Protegiendo hogares y empresas
-              con sistemas inteligentes y modernos.
+              Líder en soluciones de seguridad y vigilancia con tecnología de
+              vanguardia. Protegiendo hogares y empresas con sistemas
+              inteligentes y modernos.
             </p>
             <div className="mt-6 flex gap-4">
-              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+              <a
+                href="#"
+                className="text-muted-foreground transition-colors hover:text-primary"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+              <a
+                href="#"
+                className="text-muted-foreground transition-colors hover:text-primary"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+              <a
+                href="#"
+                className="text-muted-foreground transition-colors hover:text-primary"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+              <a
+                href="#"
+                className="text-muted-foreground transition-colors hover:text-primary"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold text-foreground">Productos</h3>
+            <h3 className="mb-4 text-sm font-semibold text-foreground">
+              Productos
+            </h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
+                <a
+                  href="#"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
                   Cámaras de Seguridad
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
+                <a
+                  href="#"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
                   Drones de Vigilancia
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
+                <a
+                  href="#"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
                   Sistemas de Alarma
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
+                <a
+                  href="#"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
                   Control de Acceso
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="mb-4 text-sm font-semibold text-foreground">Empresa</h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
-                  Sobre Nosotros
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
-                  Casos de Éxito
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
-                  Contacto
                 </a>
               </li>
             </ul>
@@ -84,9 +87,12 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Aurentric Security. Todos los derechos reservados.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Aurentric Security. Todos los
+            derechos reservados.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
