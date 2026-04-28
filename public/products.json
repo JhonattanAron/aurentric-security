@@ -1,0 +1,190 @@
+{
+  "products": [
+    {
+      "product_name": "Cámara de Seguridad Exterior 2 Antenas",
+      "category": "Cámaras de seguridad",
+      "price_usd": 25,
+      "installation": {
+        "included": true,
+        "details": [
+          "Instalación básica incluida",
+          "Configuración inicial",
+          "Prueba de funcionamiento"
+        ]
+      },
+      "description": "Cámara de seguridad para exteriores con visión nocturna y antenas duales para mejor señal.",
+      "features": [
+        "Visión nocturna",
+        "Doble antena para mejor conexión WiFi",
+        "Monitoreo remoto desde celular",
+        "Detección de movimiento",
+        "Resistente a condiciones climáticas",
+        "Fácil instalación",
+        "Uso en exteriores e interiores"
+      ],
+      "use_cases": [
+        "Vigilancia de hogares",
+        "Negocios pequeños",
+        "Garajes y exteriores"
+      ]
+    },
+    {
+      "product_name": "Mini Cámara Seguridad 360° Dual Lente",
+      "category": "Cámaras de seguridad",
+      "price_usd": 50,
+      "installation": {
+        "included": true,
+        "details": [
+          "Instalación incluida",
+          "Configuración de app iCSee",
+          "Conexión a red WiFi",
+          "Pruebas en tiempo real"
+        ]
+      },
+      "description": "Mini cámara compacta con doble lente, visión 360° y control total desde el celular.",
+      "features": [
+        "Doble lente Full HD (6MP + 8MP)",
+        "Visión 360° sin puntos ciegos",
+        "Sensor de movimiento inteligente",
+        "Alarma integrada",
+        "Audio bidireccional",
+        "Acceso remoto en tiempo real",
+        "Compatible con app iCSee",
+        "Notificaciones en el celular",
+        "Control remoto de funciones",
+        "Certificación IP66 (resistente al agua y polvo)",
+        "Uso en interiores y exteriores",
+        "Configuración sencilla",
+        "Interfaz en español"
+      ],
+      "use_cases": [
+        "Hogar",
+        "Oficina",
+        "Negocio",
+        "Vigilancia discreta"
+      ]
+    },
+    {
+      "product_name": "Cámara de Seguridad Smart 3 Lentes WiFi",
+      "category": "Cámaras de seguridad",
+      "price_usd": 90,
+      "installation": {
+        "included": true,
+        "details": [
+          "Instalación profesional incluida",
+          "Configuración completa del sistema",
+          "Conexión a WiFi",
+          "Pruebas de cobertura",
+          "Capacitación básica al cliente"
+        ]
+      },
+      "description": "Cámara inteligente con triple lente para máxima cobertura y vigilancia avanzada.",
+      "features": [
+        "Sistema de 3 lentes para cobertura amplia",
+        "Visión panorámica y zoom combinado",
+        "Alta resolución HD/Full HD",
+        "Visión nocturna avanzada",
+        "Detección de movimiento inteligente",
+        "Seguimiento automático de personas",
+        "Audio bidireccional",
+        "Acceso remoto desde celular",
+        "Notificaciones en tiempo real",
+        "Compatible con aplicaciones móviles",
+        "Uso interior y exterior",
+        "Conexión WiFi estable"
+      ],
+      "use_cases": [
+        "Casas grandes",
+        "Negocios",
+        "Bodegas",
+        "Áreas amplias"
+      ]
+    },
+    {
+      "product_name": "AgroGuard AI",
+      "category": "Sistema de vigilancia inteligente para fincas",
+      "description": "Sistema autónomo de vigilancia con dron que realiza patrullaje automático, detección inteligente de personas, vehículos y animales, y envío de alertas en tiempo real.",
+      "pricing": {
+        "full_price_usd": 4000,
+        "monthly_subscription_usd": 30
+      },
+      "hardware_included": {
+        "drone": {
+          "name": "DJI Enterprise Drone",
+          "estimated_cost_usd": 1000,
+          "features": [
+            "Vuelo automático por rutas (waypoints)",
+            "Cámara HD",
+            "Estabilización gimbal",
+            "Retorno automático"
+          ]
+        },
+        "base_station": {
+          "included": true,
+          "features": [
+            "Control central del sistema",
+            "Procesamiento de datos",
+            "Conexión con el servidor"
+          ]
+        }
+      },
+      "software_features": [
+        "Planificación de rutas automáticas",
+        "Patrullaje programado por horarios",
+        "Mapa interactivo de la finca",
+        "Historial de recorridos",
+        "Panel de control web"
+      ],
+      "ai_features": [
+        "Detección de personas",
+        "Detección de vehículos",
+        "Detección de animales",
+        "Alertas por movimiento sospechoso"
+      ],
+      "alerts": {
+        "methods": [
+          "Notificaciones móviles",
+          "Integración con WhatsApp",
+          "Captura de imagen en evento"
+        ]
+      },
+      "installation": {
+        "included": true,
+        "details": [
+          "Configuración inicial del sistema",
+          "Programación de rutas personalizadas",
+          "Pruebas de funcionamiento",
+          "Capacitación básica al cliente"
+        ]
+      },
+      "use_cases": [
+        "Vigilancia de fincas agrícolas",
+        "Protección de ganado",
+        "Prevención de robos",
+        "Monitoreo de terrenos grandes"
+      ],
+      "autonomy": {
+        "level": "Semi-autónomo",
+        "functions": [
+          "Ejecución automática de rutas",
+          "Retorno automático al punto de origen",
+          "Operación sin intervención constante"
+        ]
+      },
+      "requirements": [
+        "Conexión a internet",
+        "Zona segura de despegue",
+        "Cumplimiento de regulaciones locales de drones"
+      ],
+      "support": {
+        "included": true,
+        "monthly_subscription_features": [
+          "Actualizaciones del sistema",
+          "Soporte técnico",
+          "Mejoras de IA",
+          "Almacenamiento de eventos"
+        ]
+      }
+    }
+  ]
+}
