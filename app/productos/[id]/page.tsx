@@ -25,8 +25,9 @@ export async function generateMetadata({
 
   if (!product) {
     return {
-      title: "Producto no encontrado | Aurentric Security",
-      description: "El producto que buscas no existe",
+      title: "Aurentric Security",
+      description:
+        "Explora nuestro catálogo completo de cámaras 4K, drones de vigilancia, control de acceso biométrico y sistemas inteligentes. Precios competitivos en Quito, Pifó y Tumbaco.",
     };
   }
 
