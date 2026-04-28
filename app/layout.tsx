@@ -1,16 +1,23 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
-import { CartProvider } from "@/lib/cart-context"
+import type React from "react";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import "./globals.css";
+import { CartProvider } from "@/lib/cart-context";
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const _geist = Geist({ subsets: ["latin"] });
+const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aurentric Security | Sistemas de Seguridad y Vigilancia en Quito, Pifó y Tumbaco",
-  description: "Líder en sistemas de seguridad y vigilancia en Quito, Pifó y Tumbaco. Cámaras 4K inteligentes, drones de vigilancia, control de acceso biométrico y soluciones IA. Instalación profesional y soporte 24/7.",
+  title:
+    "Aurentric Security | Sistemas de Seguridad y Vigilancia en Quito, Pifó y Tumbaco",
+  description:
+    "Líder en sistemas de seguridad y vigilancia en Quito, Pifó y Tumbaco. Cámaras 4K inteligentes, drones de vigilancia, control de acceso biométrico y soluciones IA. Instalación profesional y soporte 24/7.",
+  icons: {
+    icon: "/logos/favicon.ico",
+    shortcut: "/logos/favicon.ico",
+    apple: "/logos/favicon.png",
+  },
   keywords: [
     "cámaras de seguridad Quito",
     "vigilancia seguridad Quito",
@@ -54,7 +61,8 @@ export const metadata: Metadata = {
     url: "https://security.aurentric.com",
     siteName: "Aurentric Security",
     title: "Aurentric Security | Sistemas de Seguridad y Vigilancia en Quito",
-    description: "Soluciones avanzadas de seguridad con tecnología IA. Cámaras 4K, drones, control de acceso y más en Quito, Pifó y Tumbaco.",
+    description:
+      "Soluciones avanzadas de seguridad con tecnología IA. Cámaras 4K, drones, control de acceso y más en Quito, Pifó y Tumbaco.",
     images: [
       {
         url: "https://security.aurentric.com/og-image.jpg",
@@ -74,13 +82,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://security.aurentric.com",
   },
-    generator: 'v0.app'
-}
+  generator: "v0.app",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="es" className="dark">
@@ -99,7 +107,8 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               name: "Aurentric Security",
               image: "https://security.aurentric.com/og-image.jpg",
-              description: "Sistemas de seguridad y vigilancia inteligente con tecnología IA",
+              description:
+                "Sistemas de seguridad y vigilancia inteligente con tecnología IA",
               url: "https://security.aurentric.com",
               telephone: "+593969849653",
               email: "info@aurentric.com",
@@ -119,13 +128,17 @@ export default function RootLayout({
               priceRange: "$$",
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
                 opens: "09:00",
                 closes: "18:00",
               },
-              sameAs: [
-                "https://wa.me/593969849653",
-              ],
+              sameAs: ["https://wa.me/593969849653"],
             }),
           }}
         />
@@ -135,5 +148,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

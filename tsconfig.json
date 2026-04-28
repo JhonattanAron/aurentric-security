@@ -5,6 +5,7 @@
       "dom.iterable",
       "esnext"
     ],
+       "jsx": "preserve",
     "allowJs": true,
     "target": "ES6",
     "skipLibCheck": true,
@@ -15,7 +16,6 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
